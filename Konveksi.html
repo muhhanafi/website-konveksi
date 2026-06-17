@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Pagi Production | Konveksi Premium Cimahi</title>
+    <meta name="description"
+        content="Konveksi premium di Cimahi. Jasa jahit rapi dan bahan pilihan untuk kaos custom, workshirt, polo, dan jaket varsity.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 1. Navbar -->
+    <nav class="navbar">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <a href="#" class="logo" style="display: flex; align-items: center; gap: 10px;">
+                <img src="Logo.jpeg" alt="Benang Jarum Logo" style="height: 40px; width: auto; border-radius: 50%;">
+                <div style="display: flex; flex-direction: column;">
+                    <span style="line-height: 1.1;">Benang Jarum</span>
+                    <span
+                        style="font-size: 0.5em; font-weight: 600; color: var(--text-light); letter-spacing: 1px; line-height: 1;">KONVEKSI
+                        & APPAREL</span>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#catalog">Catalog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary d-none-mobile">Hubungi Kami <i class="fas fa-arrow-right"></i></a>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>KONVEKSI PREMIUM CIMAHI</h1>
+            <p>Wujudkan kebutuhan pakaian seragam dan custom Anda dengan jahitan rapi, bahan pilihan terbaik, dan
+                pengerjaan tepat waktu oleh para ahli kami.</p>
+            <div class="hero-btns">
+                <a href="#catalog" class="btn btn-primary">Lihat Katalog</a>
+                <a href="https://wa.me/6282299627262" target="_blank" class="btn btn-secondary"><i
+                        class="fab fa-whatsapp"></i> Chat via WA</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Statistik -->
+    <section class="stats" id="about">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>500+</h3>
+                    <p>Projects Diselesaikan</p>
+                </div>
+                <div class="stat-item">
+                    <h3>7+</h3>
+                    <p>Tahun Pengalaman</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Kepuasan Pelanggan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Layanan Kami (Produk) -->
+    <section id="catalog" class="catalog">
+        <div class="container">
+            <h2 class="section-title">Layanan & Produk Kami</h2>
+            <div class="catalog-grid">
+                <!-- Card 1 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="file:///C:/Users/Administrator/.gemini/antigravity/brain/09bf7006-b431-4982-b56f-4475408d12f8/tshirt_mockup_1781669710607.png"
+                            alt="Kaos Custom">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">T-Shirt</span>
+                        <h3 class="product-title">KAOS CUSTOM</h3>
+                        <p class="product-desc">Bahan cotton combed premium dengan sablon plastisol tahan lama. Cocok
+                            untuk event, komunitas, atau merchandise.</p>
+                        <a href="#" class="btn-link open-modal" data-product="kaos">Lihat Detail <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="file:///C:/Users/Administrator/.gemini/antigravity/brain/09bf7006-b431-4982-b56f-4475408d12f8/workshirt_mockup_1781669722949.png"
+                            alt="Workshirt">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Kemeja</span>
+                        <h3 class="product-title">KEMEJA WORKSHIRT</h3>
+                        <p class="product-desc">Kemeja lapangan atau kantor dengan bahan drill berkualitas dan bordir
+                            presisi tinggi.</p>
+                        <a href="#" class="btn-link open-modal" data-product="workshirt">Lihat Detail <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="file:///C:/Users/Administrator/.gemini/antigravity/brain/09bf7006-b431-4982-b56f-4475408d12f8/polo_mockup_1781669735535.png"
+                            alt="Polo Shirt">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Polo</span>
+                        <h3 class="product-title">POLO SHIRT</h3>
+                        <p class="product-desc">Polo shirt elegan dari bahan lacoste, memberikan kesan semi-formal yang
+                            profesional untuk tim Anda.</p>
+                        <a href="#" class="btn-link open-modal" data-product="polo">Lihat Detail <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="file:///C:/Users/Administrator/.gemini/antigravity/brain/09bf7006-b431-4982-b56f-4475408d12f8/varsity_mockup_1781669747985.png"
+                            alt="Jaket Varsity">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Jaket</span>
+                        <h3 class="product-title">JAKET VARSITY</h3>
+                        <p class="product-desc">Jaket varsity trendy dengan kombinasi fleece dan kulit sintetis,
+                            disempurnakan dengan bordir handuk premium.</p>
+                        <a href="#" class="btn-link open-modal" data-product="varsity">Lihat Detail <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="file:///C:/Users/Administrator/.gemini/antigravity/brain/b8c1b937-e965-4b12-927d-80e45ef8ad07/jeans_mockup_1781673594296.png"
+                            alt="Celana Jeans">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Celana</span>
+                        <h3 class="product-title">CELANA JEANS</h3>
+                        <p class="product-desc">Celana jeans dengan jahitan kokoh dan denim berkualitas tinggi, nyaman
+                            untuk aktivitas harian atau seragam kerja.</p>
+                        <a href="#" class="btn-link open-modal" data-product="jeans">Lihat Detail <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Interaksi Modal Produk -->
+    <div class="modal-overlay" id="productModal">
+        <div class="modal-content">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-img">
+                <img src="" alt="Product Image" id="modalImage">
+            </div>
+            <div class="modal-details">
+                <span class="product-category" id="modalCategory">Kategori</span>
+                <h3 class="product-title" id="modalTitle" style="font-size: 2rem;">Nama Produk</h3>
+                <ul class="specs-list" id="modalSpecs">
+                    <!-- Injected by JS -->
+                </ul>
+                <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-success btn-block"
+                    style="margin-top: 2rem;">
+                    <i class="fab fa-whatsapp"></i> Pesan Sekarang via WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 6. Portfolio -->
+    <section id="services" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio Kami</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="kaos">Kaos</button>
+                <button class="filter-btn" data-filter="workshirt">Workshirt</button>
+                <button class="filter-btn" data-filter="polo">Polo</button>
+                <button class="filter-btn" data-filter="varsity">Jaket Varsity</button>
+                <button class="filter-btn" data-filter="jeans">Celana Jeans</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Portfolio Items (Reusing Product Images for Demo) -->
+                <div class="portfolio-item" data-category="kaos">
+                    <img src="file:///C:/Users/Administrator/.gemini/antigravity/brain/09bf7006-b431-4982-b56f-4475408d12f8/tshirt_mockup_1781669710607.png"
+                        alt="Portfolio Kaos 1">
+                    <div class="portfolio-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="portfolio-item" data-category="workshirt">
+                    <img src="file:///C:/Users/Administrator/.gemini/antigravity/brain/09bf7006-b431-4982-b56f-4475408d12f8/workshirt_mockup_1781669722949.png"
+                        alt="Portfolio Workshirt">
+                    <div class="portfolio-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="portfolio-item" data-category="polo">
+                    <img src="file:///C:/Users/Administrator/.gemini/antigravity/brain/09bf7006-b431-4982-b56f-4475408d12f8/polo_mockup_1781669735535.png"
+                        alt="Portfolio Polo">
+                    <div class="portfolio-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="portfolio-item" data-category="varsity">
+                    <img src="file:///C:/Users/Administrator/.gemini/antigravity/brain/09bf7006-b431-4982-b56f-4475408d12f8/varsity_mockup_1781669747985.png"
+                        alt="Portfolio Varsity">
+                    <div class="portfolio-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="portfolio-item" data-category="jeans">
+                    <img src="file:///C:/Users/Administrator/.gemini/antigravity/brain/b8c1b937-e965-4b12-927d-80e45ef8ad07/jeans_mockup_1781673594296.png"
+                        alt="Portfolio Celana Jeans">
+                    <div class="portfolio-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <!-- Additional generic placeholders if we just want more grid items -->
+                <div class="portfolio-item" data-category="kaos">
+                    <img src="file:///C:/Users/Administrator/.gemini/antigravity/brain/09bf7006-b431-4982-b56f-4475408d12f8/tshirt_mockup_1781669710607.png"
+                        alt="Portfolio Kaos 2" style="filter: hue-rotate(90deg);">
+                    <div class="portfolio-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="portfolio-item" data-category="workshirt">
+                    <img src="file:///C:/Users/Administrator/.gemini/antigravity/brain/09bf7006-b431-4982-b56f-4475408d12f8/workshirt_mockup_1781669722949.png"
+                        alt="Portfolio Workshirt 2" style="filter: hue-rotate(180deg);">
+                    <div class="portfolio-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox for Portfolio -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close"><i class="fas fa-times"></i></button>
+        <button class="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+        <img src="" alt="Lightbox Image" id="lightboxImg">
+        <button class="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- 7. Footer & Kontak -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Kiri: Info -->
+                <div class="footer-info">
+                    <h2>Siap Mewujudkan<br>Kebutuhan Konveksi Anda</h2>
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Alamat Kantor</strong><br>
+                                Jl. Kebon Kelapa No.42, Setiamanah, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40524
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <strong>WhatsApp</strong><br>
+                                +62 822-9962-7262
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong><br>
+                                Muhammad.hanafihann@gmail.com
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fab fa-instagram"></i>
+                            <div>
+                                <strong>Instagram</strong><br>
+                                -
+                            </div>
+                        </li>
+                        <li>
+                            <i class="far fa-clock"></i>
+                            <div>
+                                <strong>Jam Operasional</strong><br>
+                                Senin - Sabtu: 09.00 - 17.00 WIB
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Kanan: Form -->
+                <div class="footer-form">
+                    <form class="contact-form" id="contactForm">
+                        <h3 style="margin-bottom: 1.5rem; font-size: 1.5rem;">Kirim Pesan</h3>
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" class="form-control" required placeholder="Masukkan nama Anda">
+                        </div>
+                        <div class="form-group">
+                            <label for="whatsapp">Nomor WhatsApp</label>
+                            <input type="tel" id="whatsapp" class="form-control" required
+                                placeholder="Contoh: 08123456789">
+                        </div>
+                        <div class="form-group" style="display: flex; gap: 1rem;">
+                            <div style="flex: 1;">
+                                <label for="product">Jenis Produk</label>
+                                <select id="product" class="form-control" required>
+                                    <option value="">Pilih Produk</option>
+                                    <option value="kaos">Kaos</option>
+                                    <option value="workshirt">Workshirt</option>
+                                    <option value="polo">Polo Shirt</option>
+                                    <option value="varsity">Jaket Varsity</option>
+                                    <option value="jeans">Celana Jeans</option>
+                                    <option value="lainnya">Lainnya</option>
+                                </select>
+                            </div>
+                            <div style="flex: 1;">
+                                <label for="qty">Jumlah Order</label>
+                                <select id="qty" class="form-control" required>
+                                    <option value="">Pilih Jumlah</option>
+                                    <option value="24-50">24 - 50 Pcs</option>
+                                    <option value="51-100">51 - 100 Pcs</option>
+                                    <option value="101-500">101 - 500 Pcs</option>
+                                    <option value=">500">> 500 Pcs</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan (Opsional)</label>
+                            <textarea id="message" class="form-control"
+                                placeholder="Tuliskan detail kebutuhan Anda..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2026 Selamat Pagi Production. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
